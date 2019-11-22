@@ -22,11 +22,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/expo/expo.git",
-    "directory": "packages/expo-barcode-scanner"
+    "url": "https://github.com/jzhu1224/expo-barcode-scanner.git",
+    "directory": "./"
   },
   "bugs": {
-    "url": "https://github.com/expo/expo/issues"
+    "url": "https://github.com/jzhu1224/expo-barcode-scanner/issues"
   },
   "author": "650 Industries, Inc.",
   "license": "MIT",
@@ -34,13 +34,11 @@
   "jest": {
     "preset": "expo-module-scripts/ios"
   },
-  "unimodulePeerDependencies": {
-    "@unimodules/core": "*",
-    "unimodules-barcode-scanner-interface": "*"
-  },
   "dependencies": {
     "lodash": "^4.6.0",
-    "prop-types": "^15.6.0"
+    "prop-types": "^15.6.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
+    "react-native-unimodules": "^0.6.0"
   },
   "devDependencies": {
     "expo-module-scripts": "~1.1.1"
